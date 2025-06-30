@@ -22,7 +22,7 @@ Please review the table below to understand the role of each notebook and what d
 | 1. Data Preparation    | Preprocess and tile raw data, split datasets | Raw_data/                        | Preprocessed_data/, Input_data/ |
 | 2. Mask2Former         | Train segmentation model (Mask2Former)       | Input_data/                      | outputs/                      |
 | 3. Inference           | Run inference with trained model             | TIFF images, outputs/final_model/| Inference/                    |
-| 4. [Additional Function]() | Refine labels with SAM (pseudo-labelling)    | outputs/, segment_anything       | pseudo_dataset/               |
+| 4. [Additional Function](https://github.com/yunghsineva/Unlocking-Queensland-Imagery-Data/blob/main/4_Additional_Function.ipynb) | Refine labels with SAM (pseudo-labelling)    | outputs/, segment_anything       | pseudo_dataset/               |
 
 - All notebooks require dependencies listed in `requirements.txt`.
 - Edit data and model paths at the start of each notebook as needed.
